@@ -1,0 +1,53 @@
+
+#btn{
+    font-size: 20px;
+    cursor: pointer;
+    border: 0px;
+    background: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+    width: max-content;
+    position: relative;
+    transition: all .2s;
+    overflow: hidden;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70%;
+     color: rgb(250, 65, 9); font-weight:bolder
+  }
+  button::after {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+    z-index: -1;
+    transition: all .5s;
+    font-family: 'Roboto', sans-serif;
+  }
+  button:hover::after {
+    transform: rotate(150deg);
+  }
+  
+  button:hover {
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0px rgba(143,64,248,25), -10px 10px 25px 0px rgba(39,200,255,25);
+  }
+  #d1 {
+       width: 30%; float: right; margin-right: 10%;
+  }
+   #d1 img { 
+     margin-left: 14%;
+    width : 200px;
+    height:200px;
+    background-position: center;
+
+}#d1 li , #yass {
+  font-size: 25px; color: black;
+  margin-left: 20%;
+  font-family: 'Roboto', sans-serif;
+}
+ #d1 h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center; font-size: 25px; color: rgb(0, 34, 255);
+}
+  h1{
+    margin-right: 10%;
+  }
